@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.card_photo {
+  display: flex;
+  justify-content: center;
+}
+
+.card_photo-size {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.person-card {
+  width: 450px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card_name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card_age {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card_bio {
+  font-size: 22px;
+}
+
+/* width: 300px;
+  padding: 15px;
+  border: 1px solid;
+  bord
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px; */
